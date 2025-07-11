@@ -24,9 +24,15 @@
 .nav-link {
 
     width: 125px;
+}
 
+.Focused-button {
+    width: 165px;
 
+}
 
+.launch-button {
+    width: 217px;
 }
 
 /*shared style*/
@@ -45,13 +51,46 @@
     border-style: none;
 }
 
+.button-style:hover {
+    background-color: #c62ccb;
+    box-shadow: 0 4px 12px rgba(130, 27, 27, 0.15);
+}
+
+.container-width {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.member {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px;
+}
+
+.member-type {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/***********/
 
 
 .banner-container {
     max-width: 858px;
     width: 100%;
     min-height: 144px;
-    margin: 293px auto 0 auto;
+    margin: 293px auto 268px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +107,61 @@
     text-align: center;
 }
 
-.Focused-button {
-    width: 165px;
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+
+}
+
+.hero-container {
+    max-width: 490px;
+    width: 100%;
+}
+
+.hero-title {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-description {
+    color: rgba(37, 36, 50, 0.5);
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.statistics {
+    border-radius: 24px;
+
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px 0 50px 0;
+}
+
+.statistics-title {
+    text-align: center;
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.statistics-conatainer {
+
+    display: flex;
+    justify-content: space-around;
 
 }

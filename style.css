@@ -1,1 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+    background-image: url(/launchPad/Assets/Hero-bg.png);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px;
+}
+
+.logo {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 32.25px;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px;
+}
+
+.nav-link {
+
+    width: 125px;
+
+
+
+}
+
+/*shared style*/
+
+.button-style {
+    height: 45.5px;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-style: none;
+}
+
+
+
+.banner-container {
+    max-width: 858px;
+    width: 100%;
+    min-height: 144px;
+    margin: 293px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Focused-button {
+    width: 165px;
+
+}

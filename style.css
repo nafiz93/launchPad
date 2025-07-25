@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+* {
+    margin-right: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .header {
     width: 100%;
     background-image: url(/launchPad/Assets/Hero-bg.png);
@@ -422,6 +435,9 @@
 }
 
 @media screen and (max-width: 575.98px) {
+
+
+
     .container-width {
         max-width: 575.98px;
         width: 100%;

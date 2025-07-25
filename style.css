@@ -416,3 +416,217 @@
     color: #ff7f7f;
     font-weight: 900;
 }
+
+.display {
+    display: none;
+}
+
+@media screen and (max-width: 575.98px) {
+    .container-width {
+        max-width: 575.98px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px
+    }
+
+    .banner-container {
+        max-width: 858px;
+        width: 100%;
+        min-height: 144px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-title {
+
+        font-family: Raleway;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+
+    }
+
+    .globe-img {
+        margin-top: 20px;
+    }
+
+    .hero-container {
+        max-width: 490px;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .hero-title {
+
+
+        text-align: center;
+    }
+
+    .hero-description {
+
+        text-align: center;
+    }
+
+    .statistics-conatainer {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .member {
+        color: rgb(78, 71, 255);
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .member-type {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .card {
+        box-sizing: border-box;
+        border: 1px solid rgb(242, 237, 237);
+        border-radius: 14px;
+
+        background: rgba(255, 255, 255, 0.5);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .focus {
+        border-radius: 14px;
+
+        background: rgb(255, 255, 255);
+        margin-bottom: 70px;
+    }
+
+
+    .image-container img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .write-me {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .write-me-title {
+        font-family: Raleway;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .input-style {
+        width: 300px;
+        height: 50px;
+
+    }
+
+    .text-area-style {
+        width: 300px;
+    }
+
+    .contact-button {
+        width: 300px;
+        height: 58.81px;
+    }
+
+    #work {
+        max-width: 400px;
+        width: full;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-links-container {
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        padding-left: 0px;
+        padding: 0 50px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: rgb(137, 135, 161);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .footer-link:hover {
+        color: #ff7f7f;
+        font-weight: 900;
+    }
+
+    .button-style:hover {
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        box-shadow: 0 6px 18px rgba(98, 0, 234, 0.3);
+    }
+
+    .footer-description {
+        /* Paragraph */
+        color: rgb(137, 135, 161);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+}
